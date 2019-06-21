@@ -1,0 +1,23 @@
+destination: docs
+
+url: http://lachlandeer.github.io/marketingphdjobs
+
+authors:
+  Lachlan Deer:
+    href: http://lachlandeer.github.io
+
+template:
+  params:
+      bootswatch: flatly
+
+reference:
+  - title: Functions
+    contents:
+    - get_job_listings
+    - get_new_jobs
+    - ama_interviews
+    - job_type
+    - jobs_in_country
+
+development:
+  mode: unreleased
