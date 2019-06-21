@@ -1,13 +1,13 @@
 Package: marketingphdjobs
-Title: What the Package Does (One Line, Title Case)
+Title: Retrieve Job Listings From marketingphdjobs.org
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Lachlan",
+           family = "Deer",
            role = c("aut", "cre"),
-           email = "first.last@example.com",
-           comment = structure("YOUR-ORCID-ID", .Names = "ORCID"))
-Description: What the package does (one paragraph).
+           email = "lachlan.deer@gmail.com",
+           comment = structure("0000-0001-8646-6095", .Names = "ORCID"))
+Description: Automates the collection of job listings for marketing PhD candidates from the marketingphdjobs.org website 
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
