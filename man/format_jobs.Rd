@@ -7,5 +7,9 @@
 format_jobs(html_text)
 }
 \description{
-Format Jobs Data
+Cleans up the text output of the HTML table imported from
+marketingphdjobs.org
+}
+\details{
+End result is a tidy data frame
 }

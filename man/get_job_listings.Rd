@@ -6,6 +6,12 @@
 \usage{
 get_job_listings()
 }
+\value{
+Returns an object of class "data.frame"
+}
 \description{
-Get Job Listings from marketingphdjobs.org
+Extract job listings from the website marketingphdjobs.org
+}
+\examples{
+job_data <- get_job_listings()
 }

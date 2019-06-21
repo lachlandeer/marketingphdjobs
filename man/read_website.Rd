@@ -10,6 +10,3 @@ read_website()
 Connects to marketingphdjobs.org and loads the html into
 an R session
 }
-\details{
-You can learn more about package authoring with RStudio at:
-}

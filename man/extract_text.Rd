@@ -7,5 +7,5 @@
 extract_text(html)
 }
 \description{
-Get Text From HTML Table
+Extracts the text from the HTML elements of the a table
 }
