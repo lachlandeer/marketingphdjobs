@@ -27,6 +27,16 @@ This is a basic example which shows you how to solve a common problem:
 
 ``` r
 library(marketingphdjobs)
-## basic example code
+## download all job listings
+job_list <-  get_job_listings()
+
+## get jobs posted on and after a given date
+date_threshold <- lubridate::ymd("2019/06/18")
+new_jobs       <- get_new_jobs(date = date_threshold)
+
+## get jobs in a country of a certain level
+my_jobs <- job_list %>% 
+            jobs_in_country("united_states")  %>% 
+            job_type("assistant")
 ```
 
