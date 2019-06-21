@@ -32,7 +32,7 @@ job_list <-  get_job_listings()
 
 ## get jobs posted on and after a given date
 date_threshold <- lubridate::ymd("2019/06/18")
-new_jobs       <- get_new_jobs(date = date_threshold)
+new_jobs       <- get_new_jobs(date_lower = date_threshold)
 
 ## get jobs in a country of a certain level
 my_jobs <- job_list %>% 
