@@ -5,7 +5,7 @@
 [![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
 <!-- badges: end -->
 
-The goal of the marketingphdjobs package is to automate the collection of job listsings from the [marketingphdjobs.org](http://marketingphdjobs.org/). 
+The goal of the marketingphdjobs package is to automate the collection of job listings from the [marketingphdjobs.org](http://marketingphdjobs.org/). 
 This package currently collects all available jobs, or a subset of job listings based on a user specified date.
 
 ## Installation
