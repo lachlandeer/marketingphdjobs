@@ -20,4 +20,5 @@ Imports:
     janitor,
     stringr,
     rvest,
-    xml2
+    xml2,
+    lubridate
